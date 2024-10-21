@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloLogicoRelacional" id="C3F5F915-FF24-210B-64C9-29B959072CD8" version="3.5">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 17:59:45 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C3F5F915-FF24-210B-64C9-29B959072CD8</designId>
+</OSDM_Design>

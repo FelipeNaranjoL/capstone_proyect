@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="192C4B9C-6E95-AB4D-B4EB-E8D572AC3188" name="ImagenSitio">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:22:48 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ImagenID" id="3E4BCC83-C638-20AA-1A3C-ADAEE4B98956">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:24:27 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UrlImagen" id="C2CE57C7-EB84-DB93-1491-4701FE785D96">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:26:21 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OrdenImagen" id="7B1C91EB-FEAD-F790-7F98-D05E50158F13">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:26:45 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SitioTuristicoID" id="531EE08D-818C-CD91-1235-9A132E0E70D0">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:49 UTC</createdTime>
+<generatorID>0A44D4E9-16DA-AC80-F225-CA521B8D5CC0</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<referedAttribute>DDBADFBF-690B-350B-8CEF-85E510112F1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="439EAC22-E918-830A-32D8-628330306DF9" name="ImagenSitio PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:26 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E4BCC83-C638-20AA-1A3C-ADAEE4B98956</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

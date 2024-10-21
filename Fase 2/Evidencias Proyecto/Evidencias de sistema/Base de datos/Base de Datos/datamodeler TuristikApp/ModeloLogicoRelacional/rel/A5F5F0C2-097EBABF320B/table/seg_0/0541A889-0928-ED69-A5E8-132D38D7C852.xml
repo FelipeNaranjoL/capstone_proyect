@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0541A889-0928-ED69-A5E8-132D38D7C852" name="Tour">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>11703D52-A6DA-25BF-2A30-D8C8B91C161A</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TourID" id="0731AF38-09BB-E850-4590-7F964ADDDF68">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>1D0F1726-0A67-98E9-7753-DA6A15C1315F</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreTour" id="B0449B1F-F356-2EA5-6E84-0063F26EE011">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>2A0BE6A3-2636-2CF8-2F5E-26E6061989FD</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescripcionTour" id="C23DF36F-10ED-A259-3806-D82A51C122E3">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>A26BEF4C-0D73-C5F5-EC93-52CD2CEB4CE1</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioTour" id="D2641B31-389E-A5B6-B43E-8C92DBDC3E49">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>1457FBCB-25C6-321C-9B13-C4722490F0C2</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DuracionTour" id="22D93AB0-A330-556B-D6D1-A49F737DC84F">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>BB758629-A9AC-9815-0B22-49264A656F37</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DisponibilidadTour" id="96790242-ACCB-FB4A-6299-D4665CAD4F17">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>0EC58F18-E34E-5BC8-024D-060730DEEDAC</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SitioTuristicoFk" id="DC3B5251-19E8-6596-DEA2-77E64C095A2B">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:58 UTC</createdTime>
+<generatorID>355EF0F6-93EE-92DB-CB21-DB2D8451A452</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B43831D-BBF0-8B6E-BF6C-D30C2A82D1EE" referredColumn="F18F557F-85A5-C1BB-4524-C739A4C17251"/>
+</associations>
+</Column>
+<Column name="EvaluacionFk" id="4CD6E465-F8FE-9DEC-4F45-9ADF128FCCEB">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 20:11:29 UTC</createdTime>
+<generatorID>CCCF4D6B-D2A1-37FE-4D9E-78E1A1E92373</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4312DE24-7F42-4D33-FA34-12896A9C2219" referredColumn="5A6300E6-1EB8-3F59-7A45-C5FB292E20B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC7CFC6E-8820-947A-8515-31FB33C5569B" name="Tour_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>4668AA68-746C-C945-AE89-D28BE5A3CBAB</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0731AF38-09BB-E850-4590-7F964ADDDF68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6187AEE2-33D0-03FC-CED2-94221F0A29D5" name="Tour_SitioTuristico_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>2A3771E7-7CDD-6B56-1EAD-D64F5119BDFC</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3B5251-19E8-6596-DEA2-77E64C095A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5079F8B0-D969-0A21-0CD5-90E3A0DF6C4D" name="Tour_Evaluacion_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 20:11:29 UTC</createdTime>
+<generatorID>8B45C0BA-AC18-3D6A-8896-2E9BA2C9A71D</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD6E465-F8FE-9DEC-4F45-9ADF128FCCEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

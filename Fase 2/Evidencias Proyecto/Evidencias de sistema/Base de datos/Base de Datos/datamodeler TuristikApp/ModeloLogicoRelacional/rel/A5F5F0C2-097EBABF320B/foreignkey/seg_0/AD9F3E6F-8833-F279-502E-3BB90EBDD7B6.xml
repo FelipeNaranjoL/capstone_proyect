@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD9F3E6F-8833-F279-502E-3BB90EBDD7B6" containerWithKeyObject="1C46C3ED-6102-915E-25C6-544F82FF283A" localFKIndex="F4D69E34-78D6-51A0-E157-499E3A43CE85" name="CriterioE_Evaluacion_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>0B1843F7-9385-DFAC-3309-01A3C3FE6481</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<referredTableLongName>Evaluacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>355D1649-717F-0E22-FF17-65BDE49FBB65</referredTableID>
+<keyObject>6E7DF81F-725A-C745-E65F-1DCE10B493A8</keyObject>
+<referredKeyID>6E7DF81F-725A-C745-E65F-1DCE10B493A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EvaluacionID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

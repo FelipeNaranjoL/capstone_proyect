@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C46C3ED-6102-915E-25C6-544F82FF283A" name="CriterioEvaluacion">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>0CE11EA3-2F96-129F-D014-2DC74E2D31E4</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CriterioID" id="62AF2E1D-09C8-3CAB-3B7F-1592B618A0C4">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>2511FAAA-B5EC-45A6-7F1B-1DE4C1D5179C</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amabilidad" id="5047AB7C-825E-C7A2-FD94-6EAD41625E68">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>2B3C9BA5-B560-4EF1-06FA-AE7ABBCF88B4</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Camino" id="1E5553F9-5D49-8AE4-99C7-2B198C58ECE4">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>BC74FB41-076A-33DB-8148-BE996BD54A91</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Costo" id="768D6697-D2DE-1009-0984-DB4FF1772958">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>DAE78409-5233-31C5-D015-C18E6DCC835F</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Recomendacion" id="97823658-1A4D-0AC1-52BE-2EA7E30BCDFB">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>F6A77AAB-0241-30E1-01B1-7729CB993417</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Satisfaccion" id="0D36434F-5FE8-CD5B-EE89-BB3B58684D52">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>78542508-9B0B-2884-070C-6747777C1A9B</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transporte" id="86509874-B3C6-9515-4235-E73A2E44B25C">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>4A1FF03A-BF53-2074-B6F7-5E20501857EC</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opinion" id="1D64846B-3224-ABA3-313E-EC9ADB9F61EE">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>C83BCD57-5140-5BA4-CAA9-75122EB8502B</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EvaluacionFk" id="41A9CB70-6CB6-3E92-45AB-016E129A461A">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>1654E1C6-E558-B58E-D67A-3B119D94456A</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD9F3E6F-8833-F279-502E-3BB90EBDD7B6" referredColumn="5A6300E6-1EB8-3F59-7A45-C5FB292E20B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78F68B76-09F0-3263-316D-7EC98C18194C" name="CriterioEvaluacion_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>484B8230-980B-F2A2-277F-B6CC65DB2BDB</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62AF2E1D-09C8-3CAB-3B7F-1592B618A0C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4D69E34-78D6-51A0-E157-499E3A43CE85" name="CriterioE_Evaluacion_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:48:53 UTC</createdTime>
+<generatorID>0B1843F7-9385-DFAC-3309-01A3C3FE6481</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41A9CB70-6CB6-3E92-45AB-016E129A461A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

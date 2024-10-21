@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="274B7409-18F4-5769-3D7F-6FC59020F7C3" name="Evaluacion">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:00:39 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EvaluacionID" id="B6189404-B06F-0688-C74E-E47BA5F49E1D">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:26:04 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SitioTuristicoID" id="7F309E94-06D6-F5A3-D101-D02A882670AF">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:49 UTC</createdTime>
+<generatorID>862729BF-2E94-9C56-D80D-D0C4E167D336</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DDBADFBF-690B-350B-8CEF-85E510112F1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UsuarioID" id="C0DFB8B8-BF8D-0545-3BD9-14BDABC6708F">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 20:07:18 UTC</createdTime>
+<generatorID>A096FCEF-7E4A-ABA1-C6AA-09FA70A058D7</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<referedAttribute>9CB83093-6DE2-252C-B2AB-BBC2AA877FA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF5E533D-DEC9-8B6F-6BEE-7E310154ECB3" name="Evaluacion PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:38 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6189404-B06F-0688-C74E-E47BA5F49E1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
