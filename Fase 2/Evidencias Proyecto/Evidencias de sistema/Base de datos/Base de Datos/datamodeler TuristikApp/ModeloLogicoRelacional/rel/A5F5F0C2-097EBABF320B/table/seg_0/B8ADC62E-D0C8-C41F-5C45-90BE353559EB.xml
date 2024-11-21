@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8ADC62E-D0C8-C41F-5C45-90BE353559EB" name="AccesoQR">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>CDA4C62B-407A-70D1-0665-99FF34EE05DD</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AccesoQRID" id="CA6A1B7D-5532-1026-A0B9-1E3E0928D091">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>373D03DB-A177-8ABF-2356-1B92F4D8F2C3</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaAcceso" id="24CAFD22-4F63-E977-055E-5BF9F4890D64">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>B1F27313-2BD3-5CC7-A97D-24DAF048EE05</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoAccesoQR" id="9D79EDF6-09EF-56A6-8DD8-056FA66E3791">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>F9DF11EC-77AE-0E9C-357B-9FD6670C9FE2</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioFk" id="D1827357-5D40-72DA-06ED-8471A5044DE1">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:58 UTC</createdTime>
+<generatorID>F357B290-7E80-B371-EA64-A69FCA41058E</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E33D5773-CF18-AC0A-1876-8BE5FD327703" referredColumn="77FED582-9D9C-D2F1-BF33-B207DB243F18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3FDDA2C6-8766-D148-AEC1-4F439EF98696" name="AccesoQR_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>E39F9FA5-5D9C-3C41-CA43-69D4988684CF</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA6A1B7D-5532-1026-A0B9-1E3E0928D091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2392ECE4-BB71-BC65-CD1A-793596A08E8C" name="AccesoQR_Usuario_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>12787AF8-986B-4DC8-0F15-745661CF0FAC</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1827357-5D40-72DA-06ED-8471A5044DE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

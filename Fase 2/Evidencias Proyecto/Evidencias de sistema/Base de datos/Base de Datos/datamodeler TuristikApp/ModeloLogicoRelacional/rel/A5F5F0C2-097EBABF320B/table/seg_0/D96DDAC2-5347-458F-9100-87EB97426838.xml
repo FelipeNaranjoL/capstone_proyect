@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D96DDAC2-5347-458F-9100-87EB97426838" name="ImagenSitio">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:23:40 UTC</createdTime>
+<generatorID>192C4B9C-6E95-AB4D-B4EB-E8D572AC3188</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ImagenSitioTuristico_ID" id="C3541592-3E40-87D4-4880-4601125854A3">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:23:40 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="ImagenID" id="D57797C4-37AE-CDD2-15AA-BB51D7714BB9">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:25:04 UTC</createdTime>
+<generatorID>3E4BCC83-C638-20AA-1A3C-ADAEE4B98956</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UrlImagen" id="F073A316-49DC-F71A-D287-2D4C8B2CEAB3">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:27:28 UTC</createdTime>
+<generatorID>C2CE57C7-EB84-DB93-1491-4701FE785D96</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdenImagen" id="548DE821-2AF6-8B8F-A00B-A0AEC4FE6308">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:27:28 UTC</createdTime>
+<generatorID>7B1C91EB-FEAD-F790-7F98-D05E50158F13</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SitioTuristicoID" id="A2DA5427-309A-C548-E765-F0186F232E5C">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:58 UTC</createdTime>
+<generatorID>531EE08D-818C-CD91-1235-9A132E0E70D0</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B5A5D6F-3D6D-7DA7-014D-E9BAEE40C80E" referredColumn="F18F557F-85A5-C1BB-4524-C739A4C17251"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="712B353B-09A2-93A3-A8C9-25D2EECF48F8" name="ImagenSitio_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:58 UTC</createdTime>
+<generatorID>439EAC22-E918-830A-32D8-628330306DF9</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57797C4-37AE-CDD2-15AA-BB51D7714BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0341B1BD-2853-70CD-840F-D90C760D59B3" name="ImagenSitioTuristico_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:23:40 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C3541592-3E40-87D4-4880-4601125854A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5699E729-AAEE-EAB9-A445-BA99A2EE9D1C" name="ImagenSitio_SitioTuristico_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:25:37 UTC</createdTime>
+<generatorID>0A44D4E9-16DA-AC80-F225-CA521B8D5CC0</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2DA5427-309A-C548-E765-F0186F232E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

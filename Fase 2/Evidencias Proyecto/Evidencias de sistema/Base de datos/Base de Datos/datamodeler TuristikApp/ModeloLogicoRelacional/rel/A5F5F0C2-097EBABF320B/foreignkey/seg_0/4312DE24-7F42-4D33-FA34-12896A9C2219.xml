@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4312DE24-7F42-4D33-FA34-12896A9C2219" containerWithKeyObject="0541A889-0928-ED69-A5E8-132D38D7C852" localFKIndex="5079F8B0-D969-0A21-0CD5-90E3A0DF6C4D" name="Tour_Evaluacion_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 20:11:29 UTC</createdTime>
+<generatorID>8B45C0BA-AC18-3D6A-8896-2E9BA2C9A71D</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<referredTableLongName>Evaluacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>355D1649-717F-0E22-FF17-65BDE49FBB65</referredTableID>
+<keyObject>6E7DF81F-725A-C745-E65F-1DCE10B493A8</keyObject>
+<referredKeyID>6E7DF81F-725A-C745-E65F-1DCE10B493A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EvaluacionID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

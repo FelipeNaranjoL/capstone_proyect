@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F89AB64D-0AC1-E5EF-ED8F-FE235A506753" name="Usuario">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>2B7AD8A3-35C7-B90C-A1A9-BA7FFA04A2BC</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UsuarioID" id="4EB27604-DAF0-DF13-815C-DE00DB843919">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>9CB83093-6DE2-252C-B2AB-BBC2AA877FA9</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreUsuario" id="FCE2F6C4-ACDF-6661-96FA-722108CC9ED1">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>C4281216-2646-890D-F4CC-836728E92BCF</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ApellidoUsuario" id="96558B1E-0FB8-A485-A145-EB9F790CA007">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>964E8411-C508-D380-7DDB-605637628A08</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CorreoUsuario" id="1BBC28F3-F538-EF29-863A-3908AD7F867A">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>4E6164FC-FE83-5B64-FA36-CEDA92BC7BA7</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdiomaUsuario" id="F0C70F1B-8EE9-17A6-2D4E-47C8AE8FC5CE">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>6553423C-251D-5553-5487-33F772F98E68</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoDiscapacidadUsuario" id="45452CF2-A944-272D-D86B-9C1DA9D173F9">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>A013F8C4-EED6-EE1A-3932-DE18490099F1</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaRegistro" id="1F9CA47D-6072-A4CB-3A05-E1D94BCB43A0">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>D6BB9293-CEC6-75C9-8DBE-5ED5838D58E5</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ContraseñaUsuario" id="9F805F47-CD7B-2DE9-540A-8018E4EA0CE8">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>D60B7972-6060-6381-0377-5B1F478FCC7C</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DireccionUsuario" id="D8A3343D-610F-F043-1218-0027FDEDDB3E">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>FD78A2F6-F426-A093-382F-4B7741D2D3E8</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelefonoUsuario" id="76E5B3E6-DEF7-B466-A0A5-76027BB4E868">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>C4C7511E-E393-8189-A29D-D4CC86DD9CD5</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PermisoUsuario" id="AFCD6453-C63E-65C5-43AC-E31F6B23D78A">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<generatorID>EEC71869-883D-04BD-93FE-2F6266327A01</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_ID" id="77FED582-9D9C-D2F1-BF33-B207DB243F18">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CEFA217-911A-7F5A-B5A6-2E95CC36D107" name="Usuario_PKv1">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:29:58 UTC</createdTime>
+<generatorID>83FEA563-B994-9F48-458C-A27C4DABFB21</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EB27604-DAF0-DF13-815C-DE00DB843919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8D8C82-C8A4-FED4-132A-1DC67A576043" name="Usuario_PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 18:46:16 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="77FED582-9D9C-D2F1-BF33-B207DB243F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

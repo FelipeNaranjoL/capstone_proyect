@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC9E5D0C-4A22-E8A4-DBBF-E608C0B3A2FA" containerWithKeyObject="0370E710-3A02-8C09-9FAC-EEC2090FF57D" localFKIndex="A59B561E-B39A-9562-6C6E-D1E481D0834E" name="ContenidoS_SitioTuristico_FK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:33:17 UTC</createdTime>
+<generatorID>D66957A0-F4EC-CD82-1D46-8C4E40A912C5</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<referredTableLongName>SitioTuristico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E015F2E4-976F-D588-C824-BAD200643678</referredTableID>
+<keyObject>04BFCEAA-A12F-354B-793C-FDD680D5EC93</keyObject>
+<referredKeyID>04BFCEAA-A12F-354B-793C-FDD680D5EC93</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SitioTuristicoID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

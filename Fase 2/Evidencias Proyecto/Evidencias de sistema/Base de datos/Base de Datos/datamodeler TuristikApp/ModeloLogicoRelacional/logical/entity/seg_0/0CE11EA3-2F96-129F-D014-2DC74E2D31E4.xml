@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CE11EA3-2F96-129F-D014-2DC74E2D31E4" name="CriterioEvaluacion">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:14 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CriterioID" id="2511FAAA-B5EC-45A6-7F1B-1DE4C1D5179C">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:45:21 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amabilidad" id="2B3C9BA5-B560-4EF1-06FA-AE7ABBCF88B4">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Camino" id="BC74FB41-076A-33DB-8148-BE996BD54A91">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo" id="DAE78409-5233-31C5-D015-C18E6DCC835F">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Recomendacion" id="F6A77AAB-0241-30E1-01B1-7729CB993417">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Satisfaccion" id="78542508-9B0B-2884-070C-6747777C1A9B">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transporte" id="4A1FF03A-BF53-2074-B6F7-5E20501857EC">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opinion" id="C83BCD57-5140-5BA4-CAA9-75122EB8502B">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:44:44 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EvaluacionID" id="1654E1C6-E558-B58E-D67A-3B119D94456A">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:47:11 UTC</createdTime>
+<generatorID>0B1843F7-9385-DFAC-3309-01A3C3FE6481</generatorID>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="true"/>
+</engineerTo>
+<referedAttribute>B6189404-B06F-0688-C74E-E47BA5F49E1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="484B8230-980B-F2A2-277F-B6CC65DB2BDB" name="CriterioEvaluacion PK">
+<createdBy>Pipee</createdBy>
+<createdTime>2024-10-05 19:45:31 UTC</createdTime>
+<ownerDesignName>ModeloLogicoRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5F5F0C2-2EAD-3CF4-8C2C-097EBABF320B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2511FAAA-B5EC-45A6-7F1B-1DE4C1D5179C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
