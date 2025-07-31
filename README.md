@@ -1,5 +1,6 @@
 > [!NOTE]
 > Entrega de portafolio para el instituto DuocUc
+
 > [!INFO]
 > Se genero este proyecto con el fin de ayudar a las personas con alguna discapacidad visual o de atencion
 > Se usaron tecnologias como React, TS, Tailwind e inteligencia artificial (Gemini) para su front
