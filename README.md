@@ -1,5 +1,6 @@
 > [!NOTE]
 > Entrega de portafolio para el instituto DuocUc
+> Este repositorio trabaja en conjunto con TuristikApp
 
 > [!TIP]
 > Se generó este proyecto con el fin de ayudar a las personas con alguna discapacidad visual o de atención.  
